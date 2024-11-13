@@ -13,7 +13,7 @@ body {
 
 /* Header Image Section */
 .header-image {
-  background-image: url('path-to-your-header-image.jpg');
+  background-image: url('media\header.png');
   background-size: cover;
   background-position: center;
   height: 200px;
