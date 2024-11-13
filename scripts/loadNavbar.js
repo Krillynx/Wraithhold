@@ -1,6 +1,6 @@
 // JavaScript to load navbar.html content
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("..\navbar.html")
+  fetch("navbar.html")
     .then(response => response.text())
     .then(data => {
       // Create a container for the navbar and insert the HTML
