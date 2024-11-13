@@ -1,12 +1,13 @@
-// JavaScript to load navbar.html content
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("../navbar.html")
-    .then(response => response.text())
+  fetch("/navbar.html") // Ensure the path is correct
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.text();
+    })
     .then(data => {
-      // Create a container for the navbar and insert the HTML
-      const navbarContainer = document.createElement("div");
-      navbarContainer.innerHTML = data;
-      document.body.insertBefore(navbarContainer, document.body.firstChild);
+      document.getElementById("navbar-container").innerHTML = data;
     })
     .catch(error => console.error("Error loading navbar:", error));
 });
