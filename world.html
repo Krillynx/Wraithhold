@@ -7,48 +7,26 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="no-left-column">
+
   <!-- Header Image Section -->
   <header class="header-image">
-    <h1>World of Wraithhold</h1>
+    <h1>Explore the World of Wraithhold</h1>
   </header>
 
   <!-- Navbar Section (Loaded Dynamically) -->
   <div id="navbar-container"></div>
 
-  <!-- Main Container with Main Content and Right Column Only -->
+  <!-- Main Container -->
   <div class="main-container">
-    <!-- Main Content Area -->
+    <!-- Main Content Area (Wider since left column is removed) -->
     <main class="main-content">
-      <h2>Introduction to the World</h2>
-      <p>This page provides detailed information on the setting, lore, and key aspects of the Wraithhold universe.</p>
-      <!-- Add content specific to the world here -->
+      <h2>About the World</h2>
+      <p>The world of Wraithhold is vast and filled with mysteries. Here, you'll find information on the lands, cultures, and various powers that define it.</p>
+      <!-- Additional world content goes here -->
     </main>
 
-    <!-- Right Column: Additional Navigation -->
-    <aside class="right-column">
-      <section>
-        <h3>World</h3>
-        <ul>
-          <li><a href="setting.html">Setting</a></li>
-          <li><a href="key_locations.html">Key Locations</a></li>
-          <li><a href="death.html">Death</a></li>
-          <li><a href="occurrences.html">Occurrences</a></li>
-          <li><a href="mutations.html">Mutations</a></li>
-          <li><a href="powers.html">Powers</a></li>
-          <li><a href="daily_life.html">Daily Life</a></li>
-          <li><a href="culture.html">Culture</a></li>
-          <li><a href="factions.html">Factions</a></li>
-        </ul>
-      </section>
-      <section>
-        <h3>Characters</h3>
-        <ul>
-          <li><a href="individuals.html">Individuals</a></li>
-          <li><a href="remnants.html">Remnants</a></li>
-          <li><a href="enemies.html">Enemies</a></li>
-        </ul>
-      </section>
-    </aside>
+    <!-- Right Column: Additional Navigation (Loaded Dynamically) -->
+    <div id="right-nav-container"></div>
   </div>
 
   <script src="scripts/loadNavbar.js"></script>
