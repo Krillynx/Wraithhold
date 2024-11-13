@@ -62,7 +62,7 @@ body {
   display: flex;
   gap: 20px;
   margin: 20px auto;
-  width: clamp(80%, 70vw, 1000px);
+  width: clamp(65%, 80vw, 1200px);
 }
 
 /* Left Column Styling */
