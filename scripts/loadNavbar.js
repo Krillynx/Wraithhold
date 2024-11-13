@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Load the right navigation HTML into the right-nav-container
   const rightNavRequest = new XMLHttpRequest();
-  rightNavRequest.open("GET", "right-nav.html", true); // Ensure this path is correct
+  rightNavRequest.open("GET", "rightnav.html", true); // Ensure this path is correct
 
   rightNavRequest.onload = function () {
     if (rightNavRequest.status >= 200 && rightNavRequest.status < 300) {
