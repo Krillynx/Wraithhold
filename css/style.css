@@ -40,7 +40,6 @@ body {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  padding: 2;
 }
 
 .navbar li {
@@ -48,13 +47,13 @@ body {
 }
 
 .navbar a {
-  color: #f5f5f5;
+  color: #7dd5db; /* Updated link color */
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  color: #ffcb05;
+  color: #ffcb05; /* Different hover color for navbar */
 }
 
 /* Main Container Layout */
@@ -102,6 +101,7 @@ body {
   margin-bottom: 5px;
 }
 
+/* Link List Styling */
 .right-column ul, .left-column ul {
   list-style-type: none;
   padding: 0;
@@ -111,11 +111,13 @@ body {
   margin: 5px 0;
 }
 
+/* Link Colors in Right and Left Columns */
 .right-column a, .left-column a {
-  color: #3366cc;
+  color: #7dd5db; /* Updated link color */
   text-decoration: none;
 }
 
 .right-column a:hover, .left-column a:hover {
   text-decoration: underline;
+  color: #66c0c8; /* Lighter hover color for right/left column links */
 }
