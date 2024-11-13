@@ -47,13 +47,13 @@ body {
 }
 
 .navbar a {
-  color: #7dd5db; /* Updated link color */
+  color: #f5f5f5; /* Retaining original navbar link color */
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  color: #ffcb05; /* Different hover color for navbar */
+  color: #ffcb05; /* Retaining original navbar hover color */
 }
 
 /* Main Container Layout */
@@ -111,9 +111,9 @@ body {
   margin: 5px 0;
 }
 
-/* Link Colors in Right and Left Columns */
+/* Link Colors in Right and Left Columns Only */
 .right-column a, .left-column a {
-  color: #7dd5db; /* Updated link color */
+  color: #7dd5db; /* Updated link color for right and left columns */
   text-decoration: none;
 }
 
