@@ -68,9 +68,10 @@ body {
 /* Left Column Styling */
 .left-column {
   width: 20%;
-  background-color: #f8f9fa;
+  background-color: #2c2f33;
+  color: #f5f5f5;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #1d1f21;
 }
 
 .left-column h2 {
@@ -84,15 +85,16 @@ body {
   background-color: #2c2f33;
   color: #f5f5f5;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #1d1f21;
 }
 
 /* Right Column Styling */
 .right-column {
   width: 20%;
-  background-color: #f8f9fa;
+  background-color: #2c2f33;
+  color: #f5f5f5;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #1d1f21;
 }
 
 .right-column h3 {
