@@ -100,6 +100,16 @@ body {
 .right-column h3 {
   font-size: 1.2em;
   margin-bottom: 5px;
+  color: #fff; /* Ensure h3 is white */
+}
+
+.right-column h3 a {
+  color: #fff; /* Ensure links inside h3 are white */
+  text-decoration: none;
+}
+
+.right-column h3 a:hover {
+  text-decoration: underline; /* Optional hover effect */
 }
 
 .right-column ul, .left-column ul {
