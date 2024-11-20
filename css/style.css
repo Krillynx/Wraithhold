@@ -57,12 +57,6 @@ body {
   color: #ffcb05;
 }
 
-/* Right Nav Styling */
-#rightnav-container nav {
-  padding: 3px 0;
-}
-
-
 /* Main Container Layout */
 .main-container {
   display: flex;
@@ -96,21 +90,22 @@ body {
 
 /* Right Column Styling */
 .right-column {
-  width: 20%;
-  background-color: #2c2f33;
+  width: 20%; /* Ensure consistent width */
+  background-color: #2c2f33; /* Matches design theme */
   color: #f5f5f5;
   padding: 10px;
-  border: 1px solid #1d1f21;
+  border: none; /* Removes the border for a cleaner look */
 }
 
 .right-column h3 {
   font-size: 1.2em;
   margin-bottom: 5px;
-  color: #fff; /* Ensure h3 is white */
+  color: #fff; /* White text for h3 headings */
+  font-weight: bold;
 }
 
 .right-column h3 a {
-  color: #fff; /* Ensure links inside h3 are white */
+  color: #fff; /* Links in h3 remain white */
   text-decoration: none;
 }
 
@@ -118,21 +113,22 @@ body {
   text-decoration: underline; /* Optional hover effect */
 }
 
-.right-column ul, .left-column ul {
+.right-column ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 10px; /* Adds spacing to separate sections */
 }
 
-.right-column li, .left-column li {
+.right-column li {
   margin: 5px 0;
 }
 
-.right-column a, .left-column a {
+.right-column a {
   color: #7dd5db; /* Updated URL color */
   text-decoration: none;
 }
 
-.right-column a:hover, .left-column a:hover {
+.right-column a:hover {
   text-decoration: underline;
 }
 
