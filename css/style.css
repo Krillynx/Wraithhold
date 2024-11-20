@@ -94,6 +94,7 @@ body {
   background-color: #2c2f33; /* Matches design theme */
   color: #f5f5f5;
   padding: 10px;
+  border: 1px solid #1d1f21;
 }
 
 .right-column h3 {
