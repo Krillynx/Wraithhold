@@ -57,6 +57,12 @@ body {
   color: #ffcb05;
 }
 
+/* Right Nav Styling */
+#rightnav-container nav {
+  padding: 3px 0;
+}
+
+
 /* Main Container Layout */
 .main-container {
   display: flex;
