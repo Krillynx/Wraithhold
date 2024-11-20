@@ -94,7 +94,6 @@ body {
   background-color: #2c2f33; /* Matches design theme */
   color: #f5f5f5;
   padding: 10px;
-  border: none; /* Removes the border for a cleaner look */
 }
 
 .right-column h3 {
